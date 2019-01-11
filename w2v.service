@@ -1,0 +1,13 @@
+[Unit]
+Description=w2v service at port 5566
+After=multi-user.target
+
+[Service]
+User=vps
+Group=vps
+Type=idle
+WorkingDirectory=/home/vps/Documents/projects/project/project-mai-2/release/word2vec-server
+ExecStart=/usr/bin/python /home/vps/Documents/projects/project/project-mai-2/release/word2vec-server/app.py
+
+[Install]
+WantedBy=multi-user.target
