@@ -147,7 +147,7 @@ def get_similar_words():
         return False
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=5566)
+    app.run(host='0.0.0.0', port=80)
     # app.run(port=5566)
 
 
