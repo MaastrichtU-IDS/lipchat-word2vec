@@ -5,7 +5,12 @@
 - Gensim
 
 ## Run the server:
+
+https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM
+
+```shell
 python app.py
+```
 
 or alternative as a service: sudo systemctl enable pyrpc.service (move the .service file to your systems service directory prior to enabling the service)
 

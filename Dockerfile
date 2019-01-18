@@ -9,5 +9,5 @@ RUN pip install -r requirements.txt && \
   python -m spacy link en_core_web_sm en_default && \
   python -c "import nltk; nltk.download('all');"
 
-ENTRYPOINT ["python", "app.py"]
 
+ENTRYPOINT ["python", "app.py"]

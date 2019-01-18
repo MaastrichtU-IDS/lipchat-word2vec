@@ -1,3 +1,6 @@
+model/GoogleNews-vectors-negative300.bin.gz
+model/GoogleNews-vectors-negative300.bin
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
